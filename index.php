@@ -54,7 +54,7 @@
       <div class="divApresentacao col-sm-6 col-12 bg-txt p-1">
         <img src="img/logoBranca.png" class="img-logo"> <br>
 
-        <p class="pTxt"> Bem-vindo(a) ao TeachHelp! Aqui, você encontra uma ampla seleção de professores de todas as áreas para ajudá-lo a 
+        <p class="pTxt"> Bem-vindo(a) aooooo TeachHelp! Aqui, você encontra uma ampla seleção de professores de todas as áreas para ajudá-lo a 
             alcançar seus objetivos acadêmicos e profissionais. <br> <br>
             Todos os nossos professores são verificados e avaliados pelos próprios alunos, 
             garantindo que você tenha acesso a uma educação de qualidade. <br> <br>
