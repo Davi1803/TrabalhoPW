@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y libpq-dev \
     libicu-dev \
     libzip-dev \
 	&& docker-php-ext-configure mysqli \
-    && docker-php-ext-install mysqli && docker-php-ext-enable mysqli \
+    && docker-php-ext-install mysqli pdo pdo_mysql && docker-php-ext-enable mysqli \
     && a2enmod rewrite
 
 # Expose port 80
