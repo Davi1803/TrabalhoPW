@@ -18,7 +18,7 @@ $dbpassword	 = "d4pnw-d3@*ZRNkF";
 //$dbpassword	 = getenv("BD_PASSWORD");
 
 // para conectar ao mysql, substitua pgsql por mysql
-$db_con= new PDO('mysql:' . $host . $dbname, $dbuser, $dbpassword);
+$db_con= new PDO("mysql:" . $host . $dbname, $dbuser, $dbpassword);
 
 //alguns atributos de performance.
 $db_con->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
