@@ -16,7 +16,7 @@ if (isset($_POST['novo_nome']) && isset($_POST['novo_email']) && isset($_POST['n
     // o método trim elimina caracteres especiais/ocultos da string
 	$novo_nome = trim($_POST['novo_nome']);
 	$novo_email = trim($_POST['novo_email']);
-  	$novo_senha = trim($_POST['nova_senha']);
+  	$nova_senha = trim($_POST['nova_senha']);
   	$nova_data_nasc = trim($_POST['nova_data_nasc']);
   	$nova_data_nasc2 = str_replace("/", "-", $nova_data_nasc);
 	$nova_data_nasc3 = date('Y-m-d', strtotime($nova_data_nasc2));
